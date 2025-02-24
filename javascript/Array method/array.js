@@ -17,6 +17,7 @@
 
 // let p=num.pop()//pop return the pop element
 // console.log( num);
+// console.log( num);
 // console.log( num, p);
 
 4.//push ()=> push method return the new array length
