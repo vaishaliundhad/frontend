@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .heading{
+    @apply p-4 bg-blue-600 text-white text-center text-3xl
+  }
+  .btn{
+    @apply p-4 bg-yellow-600 rounded-md  text-white text-center m-2 font-bold
+  }
+}
+
+.active{
+  text-decoration:underline;
+  color:white;
+  /* background-color: black; */
+}
+
+.custom-gradient {
+  @apply bg-gradient-to-r from-indigo-600 via-indigo-50 to-indigo-600;
+  /* @apply bg-gradient-to-r from-violet-700 via-lime-300 to-violet-700; */
+}

@@ -1,0 +1,28 @@
+{
+  "profile": [
+    {
+      "name": "bansi",
+      "email": "bansi@gmail.com",
+      "phoneno": "4578965412",
+      "id": "ecea"
+    },
+    {
+      "id": "af23",
+      "name": "daya",
+      "email": "daya@gmil.com",
+      "phone": 3456789023
+    },
+    {
+      "id": "743c",
+      "name": "priti",
+      "email": "p@gmil.com",
+      "phone": 3456789023
+    },
+    {
+      "id": "5876",
+      "name": "sonu",
+      "email": "sonu@gmail.com",
+      "phone": "76548938"
+    }
+  ]
+}

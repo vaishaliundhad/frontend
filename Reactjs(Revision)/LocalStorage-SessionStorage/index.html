@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="output"></div>
+    <!-- LocalStorage -->
+    <div class="local">
+
+        <button onclick="setdata()">SetDataLocal</button>
+        <button onclick="getdata()">GetDataLocal</button>
+        <button onclick="removedata()">removeDataLocal</button>
+        <button onclick="clearAll()">ClearLocal</button>
+    </div>
+
+    <!-- sessionStorage -->
+    <div class="session">
+
+        <button onclick="setdata()">setDataSession</button>
+        <button onclick="getdata()">getdataSession</button>
+        <button onclick="removedata()">removedataSession</button>
+        <button onclick="cleardata()">clearAllSession</button>
+    </div>
+    <script src="LocalStorage.js"></script>
+    <script src="SessionStorage.js"></script>
+</body>
+
+</html>

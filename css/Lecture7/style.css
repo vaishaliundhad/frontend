@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+
+  
+
+} 
+.navbar{
+    height: 20px;
+}
+.navdiv{
+    color: white;
+    background-color: black;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+ 
+}
+.logo
+{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+ul,li,a{
+    text-decoration: none;
+    color: white;
+     display:flex; 
+     margin-left: 15px;
+     /* margin-top: 20px; */
+     align-items: center;
+     margin-right: 10px;
+     
+    
+}
+button{
+    border-radius: 50px;
+    height: 20px;
+    background: aqua;
+}

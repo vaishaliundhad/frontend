@@ -1,0 +1,135 @@
+/* color */
+.color{
+    color:blueviolet;         /* using color name */
+    color:rgb(0, 9, 25);       /* using rgb value */
+  color:#3cb371;                       /* using hexadecimal  */
+} 
+
+
+/* 
+background  color */
+.bgcolor{
+    background-color: rgb(17, 168, 194);
+}
+
+/*  border */
+.border{
+    background-color: black;
+    height:100px;
+    width:100px;
+
+}
+.border{
+    color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;  
+    display: flex;  
+
+}
+.border1{
+    background-color:rgb(165, 42, 42);
+    height:100px;
+    width:100px;
+    color: white;
+    /* border-width: 15px; */
+    border: 15px double rgba(245, 216, 0, 0.685);
+    /* border-style:double;
+    border-color:rgba(245, 216, 0, 0.685); */
+    display: flex;  
+
+}
+.border2{
+    background-color: rgb(15, 15, 146);
+    height:100px;
+    width:100px;
+    color: white;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: rgb(255, 0, 170);  
+    display: flex;  
+}
+.border3{
+    background-color:rgb(103, 67, 4);
+    height:100px;
+    width:100px;
+    color: white;
+    border-width: 10px;
+    border-style: dotted;
+    border-color:orange;  
+    display: flex;  
+}
+.border4{
+    background-color: #670427;
+    height:100px;
+    width:100px;
+    color: white;
+    border-width: 10px;
+    border-style: groove;
+    border-color: #d21356;  
+    display: flex;  
+
+}
+
+.border5{
+    background-color:rgb(120, 120, 7);
+    height:100px;
+    width:100px;
+    color: white;
+    border-width: 10px;
+    border-style: outset;
+    border-color: rgb(253, 213, 13);  
+    display: flex;  
+
+}
+
+
+.border6{
+    background-color: rgb(43, 3, 62);
+    height:100px;
+    width:100px;
+    color: white;
+    border-width: 10px;
+    border-style:  ridge;
+    border-color: rgb(177, 13, 253);
+    display: flex;  
+
+}
+.border7{
+    background-color: black;
+    height:100px;
+    width:100px;
+    color: white;
+    border-width: 10px;
+    border-style: initial;
+    border-color: rgb(177, 13, 253);  
+    display: flex;  
+
+}
+
+/* multiple border applay */
+
+.multiple{
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    border-top: 10px solid #d21356;
+    border-left: 15px double yellow;
+    border-bottom: 11px dotted blue;
+    border-right: 10px dashed rgb(6, 171, 177);
+    color: white;
+    display: flex;  
+
+}
+
+/* border radius applay */
+.radius{
+    color:white;
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    border: 10px solid blueviolet;
+    border-radius: 25px;
+    display: flex;  
+    /* outline-color: #d21356; */
+}
